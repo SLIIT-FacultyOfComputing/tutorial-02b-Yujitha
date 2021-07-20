@@ -29,18 +29,15 @@ printf("Hello World") --> std::cout << "Hello World";
 2.54cm = 1 inch
 
 ```c
-#include <iostream.h>
-using namespace std;
-int main()
+#include <stdio.h>
+void main(void) 
 {
     float cm, inches;
-    cout<<"Enter a length in cm : ";
-    cin>>"%f",&cm;
+    printf("Enter a length in cm : ");
+    scanf("%f",&cm);
     inches = cm / 2.54;
-    cout<<"Length in inches is %f \n", inches;
-return 0;
+    printf("Length in inches is %f \n", inches);
 }   
-
 ```
 
 ## Exercise 2 - Selection
